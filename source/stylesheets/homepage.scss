@@ -3,13 +3,19 @@
 
 @import "susy";
 
+//$legacy-support-for-ie  : true;
+//$legacy-support-for-ie6 : $legacy-support-for-ie;
+//$legacy-support-for-ie7 : $legacy-support-for-ie;
+
 $total-columns: 12;
 $container-style: static;
 
+$experimental-support-for-svg: true;
+//$experimental-support-for-pie: true;
+//@include sticky-footer(190px);
+//$pie-behavior: stylesheet-url("PIE.htc");
+//$pie-behavior: pie-element;
 
-
-@include sticky-footer(190px);
-  
 body { 
   margin: 0px;
   background-color: black;
@@ -23,7 +29,9 @@ a {
   @include background( linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1)),
   image-url("bg_tilling.png"));
   
-  background-repeat: repeat-x;
+  -pie-background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)),image-url("bg_tilling.png");
+
+  background-repeat: repeat;
   
   width: 100%;  
   height: image-height('bg_tilling.png');
