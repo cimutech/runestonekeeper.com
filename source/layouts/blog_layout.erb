@@ -3,37 +3,47 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-    <%= stylesheet_link_tag 'homepage.css' %>
-    <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <meta content='width=device-width' name='viewport'>
+    <%= stylesheet_link_tag 'homepage' %>
+    <title><%= t(:title) + ' - ' + current_article.title unless current_article.nil? %></title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
   </head>
   <body>
-    
-    <div id="main" role="main">
-      <%= yield %>
+    <div id="banner">
+      <h1><%= t(:title) %></h1>
     </div>
-    
-    <aside>
-      <h2>Recent Articles</h2>
-      <ol>
-        <% blog.articles[0...10].each do |article| %>
-          <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
-        <% end %>
-      </ol>
-
-      <h2>Tags</h2>
-      <ol>
-        <% blog.tags.each do |tag, articles| %>
-          <li><%= link_to tag, tag_path(tag) %> (<%= articles.size %>)</a></li>
-        <% end %>
-      </ol>
-
-      <h2>By Year</h2>
-      <ol>
-        <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-          <li><%= link_to year, blog_year_path(year) %> (<%= articles.size %>)</a></li>
-        <% end %>
-      </ol>
-    </aside>
+    <div id="wrap"> 
+      <aside id="aside" class='rounded'>
+        <h2><%= t(:recent_articles) %></h2>
+        <ol>
+          <% blog.local_articles[0...10].each do |article| %>
+            <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+          <% end %>
+        </ol>
+  
+        <h2><%= t(:tags) %></h2>
+        <ol>
+          <% blog.tags.each do |tag, articles| %>
+            <li><%= link_to tag, tag_path(tag) %> (<%= articles.size %>)</a></li>
+          <% end %>
+        </ol>
+  
+        <h2><%= t(:by_year) %></h2>
+        <ol>
+          <% blog.local_articles.group_by {|a| a.date.year }.each do |year, articles| %>
+            <li><%= link_to year, blog_year_path(year) %> (<%= articles.size %>)</a></li>
+          <% end %>
+        </ol>
+      </aside>
+  
+      <div id="main" role="main">
+        <div id="content">
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div>Cimu Ltd.</div>
+    </div>
   </body>
 </html>

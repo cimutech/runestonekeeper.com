@@ -7,5 +7,8 @@ gem "middleman-blog", github: 'middleman/middleman-blog'
 
 gem "middleman-gh-pages"
 
+gem 'compass'
+gem 'susy'
+
 # For feed.xml.builder
 gem "builder", "~> 3.0"
