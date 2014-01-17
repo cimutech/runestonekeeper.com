@@ -14,11 +14,54 @@
     <link rel="alternate" href="http://blog.url.com/blog/2014/01/15/welcome_chinese.html"/>
     <id>http://blog.url.com/blog/2014/01/15/welcome_chinese.html</id>
     <published>2014-01-15T05:15:00Z</published>
-    <updated>2014-01-15T16:19:41+08:00</updated>
+    <updated>2014-01-15T21:35:32+08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">
+    <content type="html">&lt;p&gt;Scribble is a &lt;a href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt; theme, created by &lt;a href="http://muan.co/"&gt;Mu-An&lt;/a&gt; and modify by &lt;a href="http://chloerei.com/"&gt;Rei&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/chloerei/scribble" target="_blank" class="big-button gray"&gt;Get it on GitHub ♥&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id="header-2"&gt;Header 2&lt;/h2&gt;
+
+&lt;h3 id="header-3"&gt;Header 3&lt;/h3&gt;
+
+&lt;h4 id="header-4"&gt;Header 4&lt;/h4&gt;
+
+&lt;p&gt;Normal text&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;italic&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;order list&lt;/li&gt;
+  &lt;li&gt;order list&lt;/li&gt;
+  &lt;li&gt;order list&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;unorder list&lt;/li&gt;
+  &lt;li&gt;unorder list&lt;/li&gt;
+  &lt;li&gt;unorder list&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Boom. I am a blockquote.&lt;/p&gt;
+
+  &lt;p&gt;Say something really clever here.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code&gt;ruby
+def whaaa
+  puts "I have a friend called Bobobmob."
+end
+&lt;/code&gt;&lt;/p&gt;
+
 </content>
   </entry>
   <entry>
