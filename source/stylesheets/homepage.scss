@@ -1,23 +1,41 @@
 @import "compass/layout";
 @import "compass/css3";
+
 @import "susy";
 
-$total-columns: 8;
+$total-columns: 12;
+$container-style: static;
+
+
 
 @include sticky-footer(190px);
   
-body 
-{ 
-  margin: 0px; 
-  background-color: #b3b3b3;
+body { 
+  margin: 0px;
+  background-color: black;
 }
 
 a {
   text-decoration: none;
 }
 
-.center
-{
+.gradient {
+  @include background( linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1)),
+  image-url("bg_tilling.png"));
+  
+  background-repeat: repeat-x;
+  
+  width: 100%;  
+  height: image-height('bg_tilling.png');
+  
+  position: absolute;
+  left: 0;
+  top: image-height('head_tilling.png');
+  
+  z-index: -1;
+}
+
+.center {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -25,21 +43,33 @@ a {
 }
 
 
+#head {
+  background-image: image-url('head_tilling.png');
+  background-repeat: repeat-x;
+  height: image-height('head_tilling.png');
+}
+
 #banner{
+  @include container;
+  
+  background-color: black;
   margin-top: 50px;
   margin-bottom: 20px;
   text-align: center;
+  
+  h1 {
+    color: #ff8000;  
+  }
 }
 
-#wrap{
+#wrap {
   @include container;
   
-  #aside
-  {
-    @include span-columns(8 omega);
-    @include single-box-shadow;
+  color: #5C3210;
   
-    background-color: white;
+  #aside {
+    @include span-columns(3 omega);
+    
     margin-bottom: 1em;
     
     ol, ul, li, a {
@@ -48,42 +78,52 @@ a {
       padding: 0;
       color: red;   
     }
+    
+    .bg {
+      padding: 1em;
+      border: 2px #B24C07 solid;
+      background-color:#d2a158;
+      margin-bottom: 1em;
+      
+      h2 {
+        margin: 0px;
+        margin-bottom: 10px;
+        font-size: 1em;
+      }
+    }
   }
   
   
-  #main
-  {
-    @include span-columns(8);
-    @include single-box-shadow;
+  #main {
+    @include span-columns(9);
   
-    background-color: white;
+    background-color: black;
+    
     margin-bottom: 50px;
   
     #content {
-      padding: 0px;
+      border: 3px #B24C07 solid;
+      background-color:#d2a158;
+      padding: 1em;
     } 
   }
   
-  @include at-breakpoint(30em 12) {
-    @include container;
-    
-    #aside {
-      @include span-columns(3 omega, 12);
-      
-    }
-    
-    #main {
-      @include span-columns(9, 12);
-    }
-  } 
+  // @include at-breakpoint(30em 12) {
+  //   @include container;
+  //   
+  //   #aside {
+  //     @include span-columns(3 omega, 12);
+  //     
+  //   }
+  //   
+  //   #main {
+  //     @include span-columns(9, 12);
+  //   }
+  // } 
 }
 
 
-
-
-
-#footer
-{
+#footer {
   text-align: center;
   background: #525358;
 }
