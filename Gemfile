@@ -10,5 +10,7 @@ gem "middleman-gh-pages"
 gem 'compass'
 gem 'susy'
 
+gem 'nokogiri'
+
 # For feed.xml.builder
 gem "builder", "~> 3.0"
