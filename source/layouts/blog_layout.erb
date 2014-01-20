@@ -22,39 +22,16 @@
     <div class='gradient'>
     </div>
     <div id="banner">
-      <h1><%= t(:title) %></h1>
     </div>
-    <div id="wrap"> 
-      <div id="aside">
-        <div class="bg">
-          <h2><%= t(:recent_articles) %></h2>
-          <ol>
-            <% blog.local_articles[0...10].each do |article| %>
-              <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
-            <% end %>
-          </ol>
-        </div>
-        <div class="bg">
-          <h2><%= t(:tags) %></h2>
-          <ol>
-            <% blog.tags.each do |tag, articles| %>
-              <li><%= link_to tag, tag_path(tag) %> (<%= articles.size %>)</a></li>
-            <% end %>
-          </ol>
-        </div>
-        <div class="bg">
-          <h2><%= t(:by_year) %></h2>
-          <ol>
-            <% blog.local_articles.group_by {|a| a.date.year }.each do |year, articles| %>
-              <li><%= link_to year, blog_year_path(year) %> (<%= articles.size %>)</a></li>
-            <% end %>
-          </ol>
-        </div>
-      </div>
+    <div id="wrap">
+
+      <%= partial "sidebar" %>
   
       <div id="main" role="main">
-        <div id="content">
-          <%= yield %>
+        <div id="container">
+          <div id="content">
+            <%= yield %>
+          </div>
         </div>
       </div>
     </div>
