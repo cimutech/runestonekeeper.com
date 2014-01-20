@@ -9,9 +9,9 @@ $container-style: static;
 $experimental-support-for-svg: true;
 
 
-$title-color: #552401;
+$title-color:   #552401;
 $article-color: #4A2106;
-$link-color: #C64200;
+$link-color:    #C64200;
 $visited-color: #97390A;
 
 body {
@@ -23,8 +23,13 @@ body {
 
 a {
   text-decoration: none;
-  //+link-colors($link-color, $visited-color, $visited-color, $visited-color, $visited-color);
 }
+
+a:link    { color: $link-color;    }
+a:visited { color: $visited-color; }
+a:hover   { color: $visited-color; }
+a:active  { color: $visited-color; }
+
 
 .gradient {
   @include background( linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1)),
@@ -32,10 +37,8 @@ a {
   
   -pie-background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)),image-url("bg_tilling.png");
 
-  //background-repeat: repeat;
-  
   width: 100%;
-  height: 1300px; //image-height('bg_tilling.png');
+  height: 1300px;
   
   position: absolute;
   left: 0;
@@ -55,7 +58,6 @@ a {
   width: 1em;
   height: 1em;
   margin-right: 0.5em;
-
 }
 
 
@@ -68,14 +70,11 @@ a {
 #banner{
   @include container;
   
-  height: 10em;
-  
   background-image: image-url('head_pic.png');
   height: image-height('head_pic.png');
   margin-top: - image-height('head_tilling.png');
-  margin-bottom: 20px;
+  margin-bottom: 1em;
   padding: 0;
-  text-align: center;
   
   h1 {
     margin: 0;
@@ -93,10 +92,6 @@ a {
     color: $title-color;
   }
   
-  a {
-    color: $link-color;
-  }
-  
   p {
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -109,7 +104,6 @@ a {
   
   color: $article-color;
   
-
   #aside {
     @include span-columns(3 omega);
     
@@ -130,21 +124,18 @@ a {
     
     .bg {
       background-image: image-url('sidebar_1.png');
-      width: image-width('sidebar_1.png');
-      height: image-height('sidebar_1.png');
+      width:            image-width('sidebar_1.png');
+      height:           image-height('sidebar_1.png');
       
-      //padding: 1em;
-      //border: 2px #B24C07 solid;
-      //background-color:#d2a158;
-      margin-bottom: 1em;
+      margin-bottom:    1em;
       
       h2 {
-        padding: 0;
-        margin: 0px;
-        margin-bottom: 10px;
-        font-size: 1em;
-        line-height: 1em;
-        color: $title-color;
+        padding:        0;
+        margin:         0px;
+        margin-bottom:  10px;
+        font-size:      1em;
+        line-height:    1em;
+        color:          $title-color;
       }
     }
   }
@@ -152,6 +143,7 @@ a {
   .outer_border {
     
   }
+  
   .inner_border {
     position: relative;
     border: 2px #C79448 solid;
@@ -175,20 +167,25 @@ a {
         background-color:#d2a158;
         margin-bottom: 1em;
         
+
+        
         h2 {
           padding: 0;
         }
         
         #top_left {
           position: absolute;
-          top: 0;
+          top:  0;
           left: 0;
+          
           background-image: image-url('L_top.png');
-          width: image-width('L_top.png');
-          height: image-height('L_top.png');
-          margin-left: -4px;
-          margin-top: -4px;
-          z-index: 3;
+          width:            image-width('L_top.png');
+          height:           image-height('L_top.png');
+          
+          margin-left:      -4px;
+          margin-top:       -4px;
+          
+          z-index:          3;
         }
         
         #top_right {
@@ -231,15 +228,16 @@ a {
           position: relative;
           background-color: transparent;
           z-index: 4;
+          
+          min-height: 200px;
            
           img {
             max-width: 100%;
           }
-         }
+        }
       }
     }
   }
-  
 }
 
 
