@@ -5,47 +5,64 @@
   <id>http://runestonekeeper.com/blog</id>
   <link href="http://runestonekeeper.com/blog"/>
   <link href="http://runestonekeeper.com/feed.xml" rel="self"/>
-  <updated>2014-01-20T09:49:00Z</updated>
+  <updated>2014-01-21T08:02:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Our Team</title>
+    <link rel="alternate" href="http://runestonekeeper.com/blog/2014/01/21/our-team.html"/>
+    <id>http://runestonekeeper.com/blog/2014/01/21/our-team.html</id>
+    <published>2014-01-21T08:02:00Z</published>
+    <updated>2014-01-21T16:19:31+08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img alt="image" src="/images/our-team/team-54e47277.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Yichen Wang&lt;/strong&gt; - Sound Designer &lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="image" src="/images/our-team/yichenwang-7a99c9f4.jpg" /&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Why We Develop This Game</title>
     <link rel="alternate" href="http://runestonekeeper.com/blog/2014/01/20/why-we-develop-this-game.html"/>
     <id>http://runestonekeeper.com/blog/2014/01/20/why-we-develop-this-game.html</id>
     <published>2014-01-20T09:49:00Z</published>
-    <updated>2014-01-20T22:46:07+08:00</updated>
+    <updated>2014-01-21T18:17:34+08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;h3 id="section"&gt;缘起&lt;/h3&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;制作符石守护者缘起于我们美术总监朱辉在2012年给我演示的一款iPhone上的地城游戏Dungeonlot,当时我们觉得作为一款roguelike类的游戏，Dungeonlot虽然很好玩，但游戏太短了，有很多东西还不满意，我们想如果加入一些RPG元素就更好玩了，我们当时一致认为应该加入自由组合的装备系统会更好，因为随机装备系统几乎是对老派Roguelike类游戏的完美诠释（当然新生代的也有）；我在工作之余研究过Diablo系列的装备生成系统，后来因为工作的原因也接触过Borderlands系列的装备生成，我当时跟朱辉说我们做一个这样的系统融进去，做个新的游戏，他也觉得不错，但由于当时人手不是很足，我自己就一个人先把游戏设计起来，大概三个月后，我拿出了一份提案，符石守护者项目正式立项。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;
+制作符石守护者缘起于我们美术总监朱辉在2012年给我演示的一款iPhone上的地城游戏Dungelot,当时我们觉得作为一款roguelike类的游戏，Dungelot虽然很好玩，但游戏太短了，有很多东西还不满意，我们想如果加入一些RPG元素就更好玩了，我们当时一致认为应该加入自由组合的装备系统会更好，因为随机装备系统几乎是对老派Roguelike类游戏的完美诠释（当然新生代的也有）；我在工作之余研究过Diablo系列的装备生成系统，后来因为工作的原因也接触过Borderlands系列的装备生成，我当时跟朱辉说我们做一个这样的系统融进去，做个新的游戏，他也觉得不错，经历了大概三个月的设计和原型调整后，符石守护者项目正式立项。
+&lt;/code&gt;
+###六边形与四边形###&lt;/p&gt;
 
-&lt;h3 id="section-1"&gt;六边形与四边形&lt;/h3&gt;
 &lt;p&gt;因为Dungeonlot珠玉在前，我们最初的想法是尽量避嫌，最简单的方式就是先把地图做成六边形的，我们用六边形一直开发到13年的11月份，但最后团队还是决定使用四边形作为我们的选择，原因有以下几点&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;地图拼接的难度&lt;/p&gt;
+    &lt;p&gt;像素画风地图拼接的难度，六角形的角度导致地图拼接起来比较难看。&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;怪物接触面变宽，战斗宽度上升，难度上升。&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;设计想法无法实现&lt;/p&gt;
+    &lt;p&gt;很多设计想法无法实现&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;最后一点也是最重要的一点，我们不想让游戏到玩家的手里的时候不好玩。&lt;/p&gt;
+    &lt;p&gt;最后一点也是最重要的一点：我们不想让游戏到玩家的手里的时候不好玩。&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id="section-2"&gt;灵魂匣&lt;/h3&gt;
-&lt;p&gt;灵魂匣的灵感来源于Dota中的灵龛和魔瓶，玩家通过击杀怪物来不断的获得自己的优势，在自己认为必要的时候将这些优势施放出来，玩家更容易通过灵魂匣来控制打造自己的节奏。而非单一因环境而受到制约。&lt;/p&gt;
+&lt;h3 id="section-1"&gt;灵魂匣&lt;/h3&gt;
 
-&lt;h3 id="section-3"&gt;天赋与技能&lt;/h3&gt;
+&lt;p&gt;随机游戏内容受牵制于环境是很常见的事情，这也一直被很多这样的游戏标榜"Hardcore"；实际上这存在着误解，有些游戏虽然看起来是随机的，但不代表着没经过设计。我们在第一个原型出来之后，认为符石守护者这样的游戏如果采用较为松散的随机系统配合，很难改善其体验，只有让玩家自己掌握一部分游戏的节奏才能真正发挥Roguelike游戏的魅力。于是我们想到了一个类似DOTA中魂龛和魔瓶的设计（实际上直到版本放出来之前，团队内部都一直叫魔瓶），玩家通过击杀怪物来不断的获得自己的优势，在自己认为必要的时候将这些优势施放出来，玩家更容易通过灵魂匣来控制打造自己的节奏，而非单一因环境而受到制约。&lt;/p&gt;
+
+&lt;h3 id="section-2"&gt;天赋与技能&lt;/h3&gt;
 
 &lt;p&gt;最开始的天赋想法和现在大致相同：所有角色共用一套天赋，天赋分为四个方向，玩家所选的方向不同和自己的职业组合起来的效果也不同，这样每个职业都会有自己的四个方向,组合起来的玩法非常的多。但和当初想法不同的是，我们最初的设计非常复杂，看起来有点像Path of Exile的技能树，和他们不同的是，其实我们是用属性点控制玩家的天赋点方向，其实本质上来说是传统欧美RPG的翻板，有点像辐射系列或者像3.5版的龙与地下城规则。&lt;/p&gt;
 
@@ -53,14 +70,50 @@
 
 &lt;p&gt;最开始对符石守护者职业和技能的设计更倾向于传统的地下城职业：野蛮人、法师、盗贼、战士这些，技能像流血、提高生命上限这样的想法；但我们觉得像符石守护者这样一款游戏，应该利用的是玩家能看到的一切资源，这个想法很疯狂，但随着第一个技能的设计出炉，很快就得到了团队的一致认可；到目前为止我们还在开发一切能用到资源来设计技能，第二个职业将会利用和地一个职业完全不同的资源概念。&lt;/p&gt;
 
-&lt;h3 id="section-4"&gt;装备系统&lt;/h3&gt;
+&lt;h3 id="section-3"&gt;装备系统&lt;/h3&gt;
 
-&lt;p&gt;在一款roguelike类游戏中加入产量巨大的装备系统看起来似乎太残酷而且太惨烈了,（但并非没有先例,TOME系列就是）。刚开始可能会不适应，但roguelike要求你步步为营，无论你装备再好，一个小的失误，就可能要求你从零开始。&lt;/p&gt;
+&lt;p&gt;在一款roguelike类游戏中加入产量巨大的装备系统看起来似乎太残酷而且太惨烈了,（但并非没有先例,ToME系列就是）。刚开始可能会不适应，但roguelike要求你步步为营，无论你装备再好，一个小的失误，就可能要求你从零开始。&lt;/p&gt;
 
-&lt;p&gt;装备组合系统是一个比较庞杂的系统，但并不复杂，我们沿用了暗黑系列中的TC和词缀的概念，但改良了&lt;/p&gt;
+&lt;p&gt;装备组合系统是一个比较庞杂的系统，但并不复杂，我们沿用了暗黑系列中的TC和词缀的概念，但改良了其分布方法，使其更适合我们的游戏，相比Borderlands系列的词缀和模型绑定的奢华方式，我们使用的是比较传统的图标和颜色组合的方式（我们人手严重不足），但我们还是给大多数传说装备做了独一无二的图标。&lt;/p&gt;
 
-&lt;h3 id="section-5"&gt;道具系统&lt;/h3&gt;
-&lt;p&gt;道具系统&lt;/p&gt;
+&lt;h3 id="section-4"&gt;道具、熔炉和商店&lt;/h3&gt;
+
+&lt;p&gt;我们在设计技能原型的时候设计了很多或者有趣或者强大的技能，但这些技能对于我们已有的职业来说不能很好的显示其职业特色,我们就将这些元素变成了一次性使用的道具。&lt;/p&gt;
+
+&lt;p&gt;考虑到游戏本身大量的装备产生，要消耗这些装备，有几种做法：一种是按照比较传统的做法，将装备卖到商店换成金币，然后想办法消耗金币；但这种做法的代价是几乎无可抑制的膨胀。另一种做法是转成暗黑3一样的锻造与强化，这种做法虽然无可挑剔，对玩家来说也兴味寡然。&lt;/p&gt;
+
+&lt;p&gt;在12月初的时候，我们想到了一个类似恶魔熔炉的想法：能熔炼一切装备，反刍出来的是各类的道具。这样，游戏的整个系统层面就完成了最终的闭环。&lt;/p&gt;
+
+&lt;h3 id="section-5"&gt;地下城主系统&lt;/h3&gt;
+
+&lt;p&gt;地下城主系统是一套尚未完全成熟的系统，但现在已经在游戏中部分使用了这个系统，它能够调节地城中元素，让玩家一直能获得相对合理的挑战难度。至今我们还在改善地下城主系统，不过从最近测试的表现来看，已经表现的相当不错，相信下个版本就能和大家正式见面了！&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Introduction</title>
+    <link rel="alternate" href="http://runestonekeeper.com/blog/2014/01/19/introduction.html"/>
+    <id>http://runestonekeeper.com/blog/2014/01/19/introduction.html</id>
+    <published>2014-01-19T10:18:00Z</published>
+    <updated>2014-01-21T18:20:36+08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h2 id="section"&gt;介绍&lt;/h2&gt;
+
+&lt;p&gt;在地城的最深处，远古的恶魔击碎了封印魔法的符石，人类因魔法武器的强大而纷争四起，争夺不休，终于有一天，符石守护者的血脉被再度激活，新一代的符石守护者再次踏上封印的征程！拿起手中的利刃，擦亮魔杖上的水晶，背上破烂的牛皮背包，在无尽的轮回中寻找那仅有一丝光亮的荣耀与梦想！&lt;/p&gt;
+
+&lt;p&gt;符石守护者是一款奇幻类的roguelike地城游戏。玩家要在50层的地城中冒险并收集符石碎片与装备强化自己，并发现地城中最后的秘密并封印符石。&lt;/p&gt;
+
+&lt;h3 id="section-1"&gt;特色&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;随机生成的地城-每一次的游戏都会有完全不同的体验，随机生成的敌人和事件，在不同的情景下需要完全不同的决策！&lt;/li&gt;
+  &lt;li&gt;地下城主系统-地下城主将会一直调节着你的游戏状态，让你始终处在兴奋点。&lt;/li&gt;
+  &lt;li&gt;硬核主义-无论你曾经多么强大，身上有着多少强力装备和储备，一旦死亡，就意味着一轮游戏的失败，你的每个行动都需要更加谨慎。&lt;/li&gt;
+  &lt;li&gt;多种多样的怪物-每种怪物都有自己。&lt;/li&gt;
+  &lt;li&gt;无尽的装备-词缀系统将组合出成千上万的装备，更有100多种传奇装备在浩瀚的装备中等着你。&lt;/li&gt;
+  &lt;li&gt;遭遇策略战-仔细抉择，每一步都可能意味着下一步的战局可能会完全不同！&lt;/li&gt;
+&lt;/ul&gt;
 </content>
   </entry>
   <entry>
