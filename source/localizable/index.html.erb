@@ -1,12 +1,38 @@
 ---
-title: t(:title)
----
-<div class='center'>
-  <h1><%= t(:title) %></h1>
-  <p>特别NB！
-    特别好玩！
-  </p>
-  <hr />
-  <%= link_to t(:blog), '/blog' %>
-</div>
+pageable: true
+per_page: 10
+layout: blog_layout
 
+---
+<% if paginate && num_pages > 1 %>
+  <p>Page <%= page_number %> of <%= num_pages %></p>
+
+  <% if prev_page %>
+    <p><%= link_to 'Previous page', prev_page %></p>
+  <% end %>
+<% end %>
+
+<% blog.local_articles.each_with_index do |article, i| %>
+  <div id="article">
+    <div class="inner_border">
+       <div id='top_left'></div>
+       <div id='top_right'></div>
+       <div id='bottom_left'></div>
+       <div id='bottom_right'></div>
+       <div id='article_body'>
+        <h2><%= link_to article.title, article %></h2>
+        <p class='date'><%= image_tag 'time.png', class: 'icon' %><%= article.date.strftime('%B %e, %Y') %></p>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+        the first 250 characters -->
+        <%= article.body %>
+      </div>
+      
+    </div>
+  </div>
+<% end %>
+
+<% if paginate %>
+  <% if next_page %>
+    <p><%= link_to 'Next page', next_page %></p>
+  <% end %>
+<% end %>
