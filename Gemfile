@@ -7,6 +7,8 @@ gem "middleman-blog", github: 'middleman/middleman-blog'
 
 gem "middleman-gh-pages"
 
+gem "middleman-favicon-maker", "~> 3.5"
+
 gem 'compass'
 gem 'susy'
 

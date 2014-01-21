@@ -1,0 +1,11 @@
+---
+title: Our Team
+date: 2014-01-21 08:02 UTC
+tags: 团队
+---
+
+![image](our-team/team.png)
+
+**Yichen Wang** - Sound Designer 
+
+![image](our-team/yichenwang.jpg)
