@@ -30,39 +30,6 @@ a:visited { color: $visited-color; }
 a:hover   { color: $visited-color; }
 a:active  { color: $visited-color; }
 
-.btn_home {
-
- display:block;
- width: image-width('btn_home.png');
- height: image-height('btn_home.png');
- background:transparent image-url('btn_home.png') center top no-repeat;
-}
-
-.btn_home:hover {
-   background-image: image-url('btn_home_hover.png');
-}
-
-.btn_blog {
- display:block;
- width: image-width('btn_blog.png');
- height: image-height('btn_blog.png');
- background:transparent image-url('btn_blog.png') center top no-repeat;
-}
-
-.btn_blog:hover {
-   background-image: image-url('btn_blog_hover.png');
-}
-
-.btn_download {
- display:block;
- width: image-width('btn_download.png');
- height: image-height('btn_download.png');
- background:transparent image-url('btn_download.png') center top no-repeat;
-}
-
-.btn_download:hover {
-   background-image: image-url('btn_download_hover.png');
-}
 
 .gradient {
   @include background( linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1)),
@@ -133,6 +100,39 @@ a:active  { color: $visited-color; }
     li {
       float: left;
       margin: 10px;
+    }
+    
+    .btn_home {
+     display:block;
+     width: image-width('btn_home.png');
+     height: image-height('btn_home.png') /2 ;
+     background: image-url('btn_home.png') center top no-repeat;
+    }
+    
+    .btn_home:hover {
+       background: image-url('btn_home.png') 0 -62px;
+    }
+    
+    .btn_blog {
+     display:block;
+     width: image-width('btn_blog.png');
+     height: image-height('btn_blog.png') / 2;
+     background: image-url('btn_blog.png') center top no-repeat;
+    }
+    
+    .btn_blog:hover {
+       background: image-url('btn_blog.png') 0 -62px;
+    }
+    
+    .btn_download {
+     display:block;
+     width: image-width('btn_download.png');
+     height: image-height('btn_download.png') / 2;
+     background: image-url('btn_download.png') center top no-repeat;
+    }
+    
+    .btn_download:hover {
+       background: image-url('btn_download.png') 0px -62px;
     }
   }
 }

@@ -37,6 +37,9 @@
                  <div id='bottom_left'></div>
                  <div id='bottom_right'></div>
                  <div id='article_body'>
+                   <h2><%= link_to current_article.title, current_article %></h2>
+                   <p class='date'><%= image_tag 'time.png', class: 'icon' %><%= current_article.date.strftime('%B %e, %Y') %></p>
+                 
                     <%= yield %>
                     
                     <div id="disqus_thread"></div>
