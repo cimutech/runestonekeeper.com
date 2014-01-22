@@ -4,7 +4,7 @@ date: 2014-01-21 08:02 UTC
 tags: 团队
 ---
 
-![image](our-team/team.png)
+![image](our-team/team.jpg)
 
 **Yichen Wang** - Sound Designer 
 

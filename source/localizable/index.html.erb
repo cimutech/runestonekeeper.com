@@ -21,7 +21,8 @@ layout: blog_layout
        <div id='bottom_right'></div>
        <div id='article_body'>
         <h2><%= link_to article.title, article %></h2>
-        <p class='date'><%= image_tag 'time.png', class: 'icon' %><%= article.date.strftime('%B %e, %Y') %></p>
+        <div class='icon icons-time'></div>
+        <p class='date'><%= article.date.strftime('%B %e, %Y') %></p>
         <!-- use article.summary(250) if you have Nokogiri available to show just
         the first 250 characters -->
         <%= article.body %>

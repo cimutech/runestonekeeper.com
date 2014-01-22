@@ -8,6 +8,10 @@ $container-style: static;
 
 $experimental-support-for-svg: true;
 
+@import "compass/utilities/sprites";
+@import "icons/*.png";
+@include all-icons-sprites;
+
 
 $title-color:   #552401;
 $article-color: #4A2106;
@@ -55,8 +59,9 @@ a:active  { color: $visited-color; }
 }
 
 .icon {
-  width: 1em;
-  height: 1em;
+  float: left;
+  width: 16px;
+  height: 16px;
   margin-right: 0.5em;
 }
 
@@ -70,13 +75,11 @@ a:active  { color: $visited-color; }
 }
 
 
-
-
 #banner{
   @include container;
   
-  background-image: image-url('head_pic.png');
-  height: image-height('head_pic.png');
+  background-image: image-url('head_pic.jpg');
+  height: image-height('head_pic.jpg');
   margin-top: - image-height('head_tilling.png');
   margin-bottom: 1em;
   padding: 0;
@@ -90,7 +93,7 @@ a:active  { color: $visited-color; }
   
   #navbar {
     position: relative;
-    top: image-height('head_pic.png') - 105px;
+    top: image-height('head_pic.jpg') - 105px;
     
     ul, li {
       padding: 0;

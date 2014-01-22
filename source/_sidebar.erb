@@ -1,7 +1,8 @@
 <div id="aside">
 <div class="bg">
 	<div class="aside_body">
-	  <h2><%= image_tag 'news.png', class: 'icon' %><%= t(:recent_articles) %></h2>
+	  <div class='icon icons-news'></div>
+	  <h2><%= t(:recent_articles) %></h2>
 	  <ol>
 		<% blog.local_articles[0...10].each do |article| %>
 		  <li><%= link_to article.title, article %> <!--span><%= article.date.strftime('%B %e, %Y') %></span--></li>
@@ -11,7 +12,8 @@
 </div>
 <div class="bg">
 	<div class="aside_body">
-	  <h2><%= image_tag 'tag.png', class: 'icon' %><%= t(:tags) %></h2>
+	  <div class='icon icons-tag'></div>
+	  <h2><%= t(:tags) %></h2>
 	  <ol>
 		<% blog.tags.each do |tag, articles| %>
 		  <li><%= link_to tag, tag_path(tag) %> (<%= articles.size %>)</a></li>
