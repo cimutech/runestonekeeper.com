@@ -5,10 +5,59 @@
   <id>http://runestonekeeper.com/blog</id>
   <link href="http://runestonekeeper.com/blog"/>
   <link href="http://runestonekeeper.com/feed.xml" rel="self"/>
-  <updated>2014-01-21T08:02:00Z</updated>
+  <updated>2014-01-24T04:07:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>城主系统</title>
+    <link rel="alternate" href="http://runestonekeeper.com/blog/2014/01/24/dungeon-master-system.html"/>
+    <id>http://runestonekeeper.com/blog/2014/01/24/dungeon-master-system.html</id>
+    <published>2014-01-24T04:07:00Z</published>
+    <updated>2014-01-24T22:39:03+08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;我们的游戏也已经开发了将近半年左右的时间了，主要的几个模块也已经基本开发完成。在本篇文章里，我为大家介绍下我们的城主系统，我戏称之“保姆”系统。&lt;/p&gt;
+
+&lt;p&gt;对于大多数的游戏来说，关卡的难易度都是在游戏开发中就设置好的。然后通过玩家的多次反馈，及数据分析，才能将游戏的体验调整到比较好的状态。但是这种方法，不仅费时费力，而且未必能够达到理想状态。所以为了能够让玩家有较好游戏体验，我们通过借鉴一些优秀游戏的体验系统，再结合我们游戏自身的特点，不断研究、改进，逐渐形成了我们自己的“保姆”系统。&lt;/p&gt;
+
+&lt;p&gt;先介绍下我们游戏关卡内容的生成规则：&lt;/p&gt;
+
+&lt;p&gt;1、	生成怪物之外的元素（商店、道具、神殿等）。&lt;/p&gt;
+
+&lt;p&gt;2、	生成怪物（普通， 远程、精英等）。&lt;/p&gt;
+
+&lt;p&gt;3、	城主系统根据规则，对场景内容进行修正。&lt;/p&gt;
+
+&lt;p&gt;“保姆”系统在关卡内容生成的最后一步进行“拨乱反正”的工作，以保证让玩家有更好的游戏体验.&lt;/p&gt;
+
+&lt;p&gt;那么，系统是如何增强体验的呢？系统是通过对英雄当前资源状态和场景资源状态进行比较，适当的增减场景内容，让玩家不会觉得关卡太过困难或简单，比较畅快的战斗下去。即使再次挑战同一关卡，只要英雄的资源状态不同（低资源、中等资源、高资源），系统就会修正关卡以增加游戏的乐趣性。&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="" src="/images/dungeon-master-system/1-7b639513.png" /&gt;
+&lt;img alt="" src="/images/dungeon-master-system/2-3a5292e8.png" /&gt;
+&lt;img alt="" src="/images/dungeon-master-system/3-f03a1fe4.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;系统的基本流程：&lt;/p&gt;
+
+&lt;p&gt;1、	划分资源&lt;/p&gt;
+
+&lt;p&gt;a.	英雄资源（HP、 MP、装备等）&lt;/p&gt;
+
+&lt;p&gt;b.	场景资源（怪物、神殿、熔炉等）&lt;/p&gt;
+
+&lt;p&gt;2、	权值分配&lt;/p&gt;
+
+&lt;p&gt;3、	权值计算，确定资源等级状态&lt;/p&gt;
+
+&lt;p&gt;4、	比较并进行修正&lt;/p&gt;
+
+&lt;p&gt;首先，我们要确定，哪些资源作为英雄的资源，哪些资源作为场景资源；然后为每个资源赋予一个权值；接着计算英雄权值总和及场景权值总和，确定两者的资源状态；最后，比较两者的资源状态，进行场景内容修正，生成最终的场景。&lt;/p&gt;
+
+&lt;p&gt;通过简单的测试，我们的“保姆”系统，对于提升游戏体验还是有很大成效的。不过，系统的有效与否，最终还是有待各位玩家的检验。也希望各位玩家在体验了我们的符石守护者后，给出您宝贵的建议。&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Our Team</title>
     <link rel="alternate" href="http://runestonekeeper.com/blog/2014/01/21/our-team.html"/>

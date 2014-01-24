@@ -55,6 +55,8 @@
 	  <h2>最近更新</h2>
 	  <ol>
 		
+		  <li><a href="/blog/2014/01/24/dungeon-master-system.html">城主系统</a> <!--span>January 24, 2014</span--></li>
+		
 		  <li><a href="/blog/2014/01/21/our-team.html">Our Team</a> <!--span>January 21, 2014</span--></li>
 		
 		  <li><a href="/blog/2014/01/20/why-we-develop-this-game.html">Why We Develop This Game</a> <!--span>January 20, 2014</span--></li>
@@ -74,6 +76,8 @@
 		
 		  <li><a href="/tags/团队.html">团队</a> (1)</a></li>
 		
+		  <li><a href="/tags/游戏开发.html">游戏开发</a> (1)</a></li>
+		
 		  <li><a href="/tags/example.html">example</a> (1)</a></li>
 		
 	  </ol>
@@ -85,7 +89,7 @@
 	  <h2>年度</h2>
 	  <ol>
 		
-		  <li><a href="/2014.html">2014</a> (3)</a></li>
+		  <li><a href="/2014.html">2014</a> (4)</a></li>
 		
 	  </ol>
 	</div>
@@ -97,6 +101,60 @@
         <div id="container">
           <div id="content">
             
+  <div id="article">
+    <div class="inner_border">
+       <div id='top_left'></div>
+       <div id='top_right'></div>
+       <div id='bottom_left'></div>
+       <div id='bottom_right'></div>
+       <div id='article_body'>
+        <h2><a href="/blog/2014/01/24/dungeon-master-system.html">城主系统</a></h2>
+        <p class='date'><img class="icon" src="/images/time-91d05f2a.png" />January 24, 2014</p>
+        <!-- use article.summary(250) if you have Nokogiri available to show just
+        the first 250 characters -->
+        <p>我们的游戏也已经开发了将近半年左右的时间了，主要的几个模块也已经基本开发完成。在本篇文章里，我为大家介绍下我们的城主系统，我戏称之“保姆”系统。</p>
+
+<p>对于大多数的游戏来说，关卡的难易度都是在游戏开发中就设置好的。然后通过玩家的多次反馈，及数据分析，才能将游戏的体验调整到比较好的状态。但是这种方法，不仅费时费力，而且未必能够达到理想状态。所以为了能够让玩家有较好游戏体验，我们通过借鉴一些优秀游戏的体验系统，再结合我们游戏自身的特点，不断研究、改进，逐渐形成了我们自己的“保姆”系统。</p>
+
+<p>先介绍下我们游戏关卡内容的生成规则：</p>
+
+<p>1、	生成怪物之外的元素（商店、道具、神殿等）。</p>
+
+<p>2、	生成怪物（普通， 远程、精英等）。</p>
+
+<p>3、	城主系统根据规则，对场景内容进行修正。</p>
+
+<p>“保姆”系统在关卡内容生成的最后一步进行“拨乱反正”的工作，以保证让玩家有更好的游戏体验.</p>
+
+<p>那么，系统是如何增强体验的呢？系统是通过对英雄当前资源状态和场景资源状态进行比较，适当的增减场景内容，让玩家不会觉得关卡太过困难或简单，比较畅快的战斗下去。即使再次挑战同一关卡，只要英雄的资源状态不同（低资源、中等资源、高资源），系统就会修正关卡以增加游戏的乐趣性。</p>
+
+<p><img alt="" src="/images/dungeon-master-system/1-7b639513.png" />
+<img alt="" src="/images/dungeon-master-system/2-3a5292e8.png" />
+<img alt="" src="/images/dungeon-master-system/3-f03a1fe4.png" /></p>
+
+<p>系统的基本流程：</p>
+
+<p>1、	划分资源</p>
+
+<p>a.	英雄资源（HP、 MP、装备等）</p>
+
+<p>b.	场景资源（怪物、神殿、熔炉等）</p>
+
+<p>2、	权值分配</p>
+
+<p>3、	权值计算，确定资源等级状态</p>
+
+<p>4、	比较并进行修正</p>
+
+<p>首先，我们要确定，哪些资源作为英雄的资源，哪些资源作为场景资源；然后为每个资源赋予一个权值；接着计算英雄权值总和及场景权值总和，确定两者的资源状态；最后，比较两者的资源状态，进行场景内容修正，生成最终的场景。</p>
+
+<p>通过简单的测试，我们的“保姆”系统，对于提升游戏体验还是有很大成效的。不过，系统的有效与否，最终还是有待各位玩家的检验。也希望各位玩家在体验了我们的符石守护者后，给出您宝贵的建议。</p>
+
+
+      </div>
+      
+    </div>
+  </div>
   <div id="article">
     <div class="inner_border">
        <div id='top_left'></div>
