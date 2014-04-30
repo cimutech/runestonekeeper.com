@@ -5,10 +5,25 @@
   <id>http://runestonekeeper.com/blog</id>
   <link href="http://runestonekeeper.com/blog"/>
   <link href="http://runestonekeeper.com/feed.xml" rel="self"/>
-  <updated>2014-01-24T04:07:00Z</updated>
+  <updated>2014-04-30T14:53:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Beta Release</title>
+    <link rel="alternate" href="http://runestonekeeper.com/blog/2014/04/30/new-beta-release.html"/>
+    <id>http://runestonekeeper.com/blog/2014/04/30/new-beta-release.html</id>
+    <published>2014-04-30T14:53:00Z</published>
+    <updated>2014-04-30T23:01:07+08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Windows: &lt;a href="http://runestonekeeper.qiniudn.com/RuneStoneKeeperSetup.msi"&gt;Download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Mac: &lt;a href="http://runestonekeeper.qiniudn.com/RuneStoneKeeper.dmg"&gt;Download&lt;/a&gt;&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>城主系统</title>
     <link rel="alternate" href="http://runestonekeeper.com/blog/2014/01/24/dungeon-master-system.html"/>
