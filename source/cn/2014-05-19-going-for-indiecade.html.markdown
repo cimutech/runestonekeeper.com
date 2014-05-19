@@ -4,7 +4,8 @@ date: 2014-05-19 01:54 UTC
 tags:
 ---
 
-## Runestone Keeper going for IndieCade 参加独立游戏比赛Indicade ##
+## Runestone Keeper going for IndieCade ##
+##参加独立游戏比赛Indiecade ##
 
 
 ![image](indie-cade/indiecade_capture_logo.png)
@@ -13,9 +14,7 @@ tags:
 
 [IndieCade](http://www.indiecade.com/) is an annual gathering for independent teams and game studios to demostrate 
 
-their latest work to the gobal audience, and we made it just in time for the regular submission! Check out the [tweets]
-
-(https://twitter.com/runestonekeeper) and [vids] (youtu.be/cLsg9DVhX90) when you got the time, and be sure to 
+their latest work to the gobal audience, and we made it just in time for the regular submission! Check out the [tweets](https://twitter.com/runestonekeeper) and [vids](youtu.be/cLsg9DVhX90) when you got the time, and be sure to 
 
 download a version from the link below. Cheers~
 
