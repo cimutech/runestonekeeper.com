@@ -1,13 +1,13 @@
 /* line 58, icons/*.png */
 .icons-sprite, .icons-news, .icons-tag, .icons-time { background: url("/images/icons-sfc1677de7f-9623cb4c.png") no-repeat; }
 
-/* line 60, /Users/chaixl/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/chaixl/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-news { background-position: 0 0; }
 
-/* line 60, /Users/chaixl/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/chaixl/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-tag { background-position: 0 -16px; }
 
-/* line 60, /Users/chaixl/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, /Users/chaixl/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-time { background-position: 0 -32px; }
 
 /* line 21, /Users/chaixl/work/runestonekeeper.com/source/stylesheets/homepage.scss */
@@ -42,7 +42,7 @@ a:active { color: #97390a; }
 
 /* line 78, /Users/chaixl/work/runestonekeeper.com/source/stylesheets/homepage.scss */
 #banner { *zoom: 1; width: 59em; padding-left: 1em; padding-right: 1em; margin-left: auto; margin-right: auto; background-image: url("/images/head_pic-635158a1.jpg"); height: 360px; margin-top: -80px; margin-bottom: 1em; padding: 0; }
-/* line 38, /Users/chaixl/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /Users/chaixl/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 #banner:after { content: ""; display: table; clear: both; }
 /* line 87, /Users/chaixl/work/runestonekeeper.com/source/stylesheets/homepage.scss */
 #banner h1 { margin: 0; padding: 0; color: #926A48; font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", "Helvetica Neue", Arial, Helvetica, sans-serif; }
@@ -67,7 +67,7 @@ a:active { color: #97390a; }
 
 /* line 144, /Users/chaixl/work/runestonekeeper.com/source/stylesheets/homepage.scss */
 #wrap { *zoom: 1; width: 59em; padding-left: 1em; padding-right: 1em; margin-left: auto; margin-right: auto; color: #4a2106; }
-/* line 38, /Users/chaixl/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /Users/chaixl/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 #wrap:after { content: ""; display: table; clear: both; }
 /* line 147, /Users/chaixl/work/runestonekeeper.com/source/stylesheets/homepage.scss */
 #wrap h2 { color: #552401; }

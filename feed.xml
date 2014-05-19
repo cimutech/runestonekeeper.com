@@ -5,10 +5,49 @@
   <id>http://runestonekeeper.com/blog</id>
   <link href="http://runestonekeeper.com/blog"/>
   <link href="http://runestonekeeper.com/feed.xml" rel="self"/>
-  <updated>2014-04-30T14:53:00Z</updated>
+  <updated>2014-05-19T01:54:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Going for IndieCade</title>
+    <link rel="alternate" href="http://runestonekeeper.com/blog/2014/05/19/going-for-indiecade.html"/>
+    <id>http://runestonekeeper.com/blog/2014/05/19/going-for-indiecade.html</id>
+    <published>2014-05-19T01:54:00Z</published>
+    <updated>2014-05-19T09:59:23+08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h2 id="runestone-keeper-going-for-indiecade-indicade"&gt;Runestone Keeper going for IndieCade 参加独立游戏比赛Indicade&lt;/h2&gt;
+
+&lt;p&gt;&lt;img alt="image" src="/images/indie-cade/indiecade_capture_logo-bd880a52.png" /&gt;&lt;/p&gt;
+
+&lt;h3 id="we-are-going-for-indiecade"&gt;We are going for IndieCade!&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="http://www.indiecade.com/"&gt;IndieCade&lt;/a&gt; is an annual gathering for independent teams and game studios to demostrate &lt;/p&gt;
+
+&lt;p&gt;their latest work to the gobal audience, and we made it just in time for the regular submission! Check out the [tweets]&lt;/p&gt;
+
+&lt;p&gt;(https://twitter.com/runestonekeeper) and [vids] (youtu.be/cLsg9DVhX90) when you got the time, and be sure to &lt;/p&gt;
+
+&lt;p&gt;download a version from the link below. Cheers~&lt;/p&gt;
+
+&lt;h3 id="indiecade"&gt;我们参加独立游戏盛会IndieCade赛事啦！&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="http://www.indiecade.com/"&gt;IndieCade&lt;/a&gt; 每年在美国举行，为小型和个人的独立游戏工作团体提供一个向全&lt;/p&gt;
+
+&lt;p&gt;球观众展示的平台，经过各位团员的一致努力，我们掐着时间正式报名进入比赛了！&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href="http://runestonekeeper.qiniudn.com/RuneStoneKeeperSetup.msi"&gt;Windows: Download&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href="http://runestonekeeper.qiniudn.com/RuneStoneKeeper.dmg"&gt;Mac: Download&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Beta Release</title>
     <link rel="alternate" href="http://runestonekeeper.com/blog/2014/04/30/new-beta-release.html"/>
@@ -178,18 +217,6 @@
   &lt;li&gt;无尽的装备-词缀系统将组合出成千上万的装备，更有100多种传奇装备在浩瀚的装备中等着你。&lt;/li&gt;
   &lt;li&gt;遭遇策略战-仔细抉择，每一步都可能意味着下一步的战局可能会完全不同！&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Example Article</title>
-    <link rel="alternate" href="http://runestonekeeper.com/blog/2012/01/01/example-article.html"/>
-    <id>http://runestonekeeper.com/blog/2012/01/01/example-article.html</id>
-    <published>2012-01-01T00:00:00Z</published>
-    <updated>2014-04-09T14:10:29+08:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;
 </content>
   </entry>
 </feed>
