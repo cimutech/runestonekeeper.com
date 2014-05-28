@@ -25,6 +25,3 @@ download a version from the link below. Cheers~
 
 球观众展示的平台，经过各位团员的一致努力，我们掐着时间正式报名进入比赛了！
 
-- [Windows: Download](http://runestonekeeper.qiniudn.com/RuneStoneKeeperSetup.msi)
-
-- [Mac: Download](http://runestonekeeper.qiniudn.com/RuneStoneKeeper.dmg)
